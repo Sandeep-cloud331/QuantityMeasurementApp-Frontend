@@ -1,0 +1,84 @@
+# =========================================
+# Angular / Node
+# =========================================
+/node_modules
+/dist
+/tmp
+/out-tsc
+/bazel-out
+.angular/
+.angular/cache
+
+# Logs
+*.log
+logs/
+npm-debug.log
+yarn-error.log
+
+# Coverage
+/coverage
+
+# =========================================
+# Environment files (IMPORTANT)
+# =========================================
+.env
+.env.*
+!.env.example
+
+# =========================================
+# IDEs and Editors
+# =========================================
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# =========================================
+# System files
+# =========================================
+.DS_Store
+Thumbs.db
+
+# =========================================
+# Java / Spring Boot
+# =========================================
+/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven / Gradle
+.gradle/
+build/
+.mvn/
+
+# =========================================
+# Database files
+# =========================================
+*.db
+*.sqlite
+
+# =========================================
+# Miscellaneous
+# =========================================
+.sass-cache/
+.connect.lock
+/libpeerconnection.log
+testem.log
+/typings
+__screenshots__/
+
+# Temp files
+*.tmp
+*.swp
