@@ -3,7 +3,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { tap } from 'rxjs/operators';
 
-const BASE = 'http://localhost:8080';
+const BASE = 'https://quantitymeasurementapp-2-i500.onrender.com';
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {
